@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jain.avinash.cs_languagebooks.six"
+    android:background="@android:color/holo_orange_dark">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/java" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="download"
+        android:background="@drawable/button_oval"
+        android:onClick="Link10"
+        android:id="@+id/button12"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/button13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Link11"
+        android:text="download"
+        android:background="@drawable/button_oval"
+        android:id="@+id/button13"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="download"
+        android:background="@drawable/button_oval"
+        android:onClick="Link12"
+        android:id="@+id/button14"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Head First in Java"
+        android:id="@+id/textView11"
+        android:layout_alignTop="@+id/button12"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java by Bruce Eckel"
+        android:id="@+id/textView12"
+        android:layout_alignTop="@+id/button13"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView13"
+        android:layout_alignTop="@+id/button14"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+</RelativeLayout>
